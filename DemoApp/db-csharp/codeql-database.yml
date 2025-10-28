@@ -1,0 +1,12 @@
+---
+sourceLocationPrefix: C:\Users\User\Desktop\ETF\codeql-csharp-demo\DemoApp
+baselineLinesOfCode: 64
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: csharp
+creationMetadata:
+  cliVersion: 2.23.3
+  creationTime: 2025-10-27T15:43:18.084022500Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: true

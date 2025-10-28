@@ -1,0 +1,53 @@
+[T 15:43:18 16428] Initializing tracer.
+[T 15:43:18 16428] Initializing tags.
+[T 15:43:18 16428] CodeQL CLI version 2.23.3
+[T 15:43:18 16428] Initializing tracer.
+[T 15:43:18 16428] Initializing tags.
+[T 15:43:18 16428] Allocated ID 67903A8D0000402C_0000000000000001 (parent )
+[T 15:43:18 16428] ==== Candidate to intercept: C:\Users\User\Desktop\CodeQL\codeql\tools\win64\runner.exe (23528) ====
+[T 15:43:18 16428] Executing the following tracer actions:
+[T 15:43:18 16428] Tracer actions:
+[T 15:43:18 16428] pre_invocations(0)
+[T 15:43:18 16428] post_invocations(0)
+[T 15:43:18 16428] trace_languages(1): [csharp]
+[T 15:43:18 23528] Initializing tracer.
+[T 15:43:18 23528] Initializing tags.
+[T 15:43:18 23528] ID set to 67903A8D0000402C_0000000000000001 (parent root)
+[T 15:43:18 23528] Allocated ID B96E40FC00005BE8_0000000000000001 (parent 67903A8D0000402C_0000000000000001)
+[T 15:43:18 23528] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (30620) ====
+[T 15:43:18 23528] Executing the following tracer actions:
+[T 15:43:18 23528] Tracer actions:
+[T 15:43:18 23528] pre_invocations(0)
+[T 15:43:18 23528] post_invocations(0)
+[T 15:43:18 23528] trace_languages(1): [csharp]
+[T 15:43:18 30620] Initializing tracer.
+[T 15:43:18 30620] Initializing tags.
+[T 15:43:18 30620] ID set to B96E40FC00005BE8_0000000000000001 (parent 67903A8D0000402C_0000000000000001)
+[T 15:43:18 30620] Allocated ID 927BB08B0000779C_0000000000000001 (parent B96E40FC00005BE8_0000000000000001)
+[T 15:43:18 30620] ==== Candidate to intercept: C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\MSBuild.exe (26488) ====
+[T 15:43:18 30620] Lua: === Intercepted call to c:\program files (x86)\microsoft visual studio\2022\buildtools\msbuild\current\bin\msbuild.exe ===
+[T 15:43:18 30620] Executing the following tracer actions:
+[T 15:43:18 30620] Tracer actions:
+[T 15:43:18 30620] pre_invocations(0)
+[T 15:43:18 30620] replacing compiler with:
+[T 15:43:18 30620] invocation: c:\program files (x86)\microsoft visual studio\2022\buildtools\msbuild\current\bin\msbuild.exe, args: DemoApp.csproj /t:Rebuild /p:Configuration=Debug /p:UseSharedCompilation=false /p:MvcBuildViews=true /p:EmitCompilerGeneratedFiles=true
+[T 15:43:18 30620] post_invocations(0)
+[T 15:43:18 30620] trace_languages(1): [csharp]
+[T 15:43:18 27768] Initializing tracer.
+[T 15:43:18 27768] Initializing tags.
+[T 15:43:18 27768] ID set to 927BB08B0000779C_0000000000000001 (parent B96E40FC00005BE8_0000000000000001)
+[T 15:43:21 27768] Allocated ID 0F9853D900006C78_0000000000000001 (parent 927BB08B0000779C_0000000000000001)
+[T 15:43:21 27768] ==== Candidate to intercept: C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\Roslyn\csc.exe (5048) ====
+[T 15:43:21 27768] Lua: === Intercepted call to c:\program files (x86)\microsoft visual studio\2022\buildtools\msbuild\current\bin\roslyn\csc.exe ===
+[T 15:43:21 27768] Executing the following tracer actions:
+[T 15:43:21 27768] Tracer actions:
+[T 15:43:21 27768] pre_invocations(1)
+[T 15:43:21 27768] invocation: C:\Users\User\Desktop\CodeQL\codeql\csharp\tools\win64\Semmle.Extraction.CSharp.Driver.exe, args: --compiler "c:\program files (x86)\microsoft visual studio\2022\buildtools\msbuild\current\bin\roslyn\csc.exe" /noconfig @"C:\Users\User\AppData\Local\Temp\MSBuildTemp\tmp6e26284df2a246eabee2cfce14637cac.rsp"
+[T 15:43:21 27768] post_invocations(0)
+[T 15:43:21 27768] trace_languages(1): [csharp]
+[T 15:43:22 3632] Initializing tracer.
+[T 15:43:22 3632] Initializing tags.
+[T 15:43:22 3632] ID set to 0F9853D900006C78_0000000000000001 (parent 927BB08B0000779C_0000000000000001)
+[T 15:43:29 5048] Initializing tracer.
+[T 15:43:29 5048] Initializing tags.
+[T 15:43:29 5048] ID set to 0F9853D900006C78_0000000000000001 (parent 927BB08B0000779C_0000000000000001)
